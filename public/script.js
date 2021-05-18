@@ -1,4 +1,4 @@
-const baseUrl = "http://api.airvisual.com/v2/city";
+const baseUrl = "https://api.airvisual.com/v2/city";
 const key = "7403a02f-d63f-46d0-9d39-3c34e76d5bdf";
 
 const userCity = document.querySelector('.city');
