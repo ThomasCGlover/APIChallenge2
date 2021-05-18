@@ -1,34 +1,80 @@
 body{
-    margin:0;
-    color: black;
+    height: 100%;
+    background-image: url(yaroslav-boshnakov-maWs7-67Xsc-unsplash.jpg);
+    background-position: right;
+    background-size: cover;
+    color: white;
+}
+.content-wrapper{
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 30%;
+    height: 100vh;
+    width: 80vw;
+    margin-top: 0vh;
+}
+#smallPara{
+    font-size: 5vh;
 }
 
-.intro-container{
-    margin-top: 0vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    display: grid;
-    justify-content: center;
+.results{
+    flex: 70%;
+    padding-top: 25vh;
+    font-size: 20vh;
+    color: rgb(227, 210, 39);
+}
+h1{
+    text-align: right;
+    margin-top: 15vh;
+    margin-right: 1vw;
+    font-size: 12vh;
+}
+
+h1 span{
+    color: rgb(227, 210, 39);
     
 }
 
-.content-container{
-    padding-top: 10vh;
-}
-#roughrider-logo{
-    height: 20vh;
-    width: auto;
-    margin: auto;
+h4{
+    margin-left: 10vw;
 }
 
-#main-headline{
-    font-size: 5vh;
-    margin-top: 1vh;
-   
+h4 span{
+    color: rgb(227, 210, 39);
+}
+.form{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 8vw;
+    
+    
 }
 
-.list-group-item{
-    text-align: center;
-    width: 50vw;
-    margin: auto;
+.city, .state{
+    width: 20vw;
+    margin-bottom: 5vh;
+    
+
 }
+
+button{
+    width: 10vw;
+    color: rgb(227, 210, 39);
+}
+
+label{
+    width: 30vw;
+    font-size: larger;
+}
+
+input{
+    border-color: rgb(227, 210, 39);
+    border-radius: 12%;
+}
+
